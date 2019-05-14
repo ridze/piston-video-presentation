@@ -1,5 +1,5 @@
 import React from 'react';
-import mainCoverImage from './assets/piston-video-cover-img.png';
+import mainCoverImage from './assets/PistonVault.png';
 import './App.css';
 
 function App() {
