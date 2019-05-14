@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={mainCoverImage} className="App-logo" alt="logo" />
       </header>
-      <video src="./assets/piston-video-presentation.mp4" width="400" height="300" controls></video>
+      <video src="./piston-video-presentation.mp4" width="400" height="300" controls></video>
     </div>
   );
 }

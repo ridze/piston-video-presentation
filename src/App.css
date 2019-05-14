@@ -4,11 +4,14 @@ body {
 .App {
   text-align: center;
   background-color: black;
+
 }
 
 .App-logo {
   height: 40vmin;
+  color: black;
   pointer-events: none;
+  overflow: hidden;
 }
 
 .App-header {
