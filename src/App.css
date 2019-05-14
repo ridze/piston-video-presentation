@@ -10,8 +10,15 @@ body {
 .App-logo {
   height: 40vmin;
   color: black;
+  margin-left: -1px;
   pointer-events: none;
   overflow: hidden;
+}
+
+.App-logo-wrapper {
+  overflow: hidden;
+  height: calc(40vmin - 1px);
+  /*width: calc(auto - 1px);*/
 }
 
 .App-header {

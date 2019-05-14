@@ -6,7 +6,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={mainCoverImage} className="App-logo" alt="logo" />
+        <span className="App-logo-wrapper">
+           <img src={mainCoverImage} className="App-logo" alt="logo" />
+        </span>
       </header>
       <video src="./piston-video-presentation.mp4" width="400" height="300" controls></video>
     </div>
