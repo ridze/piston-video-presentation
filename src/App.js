@@ -14,7 +14,7 @@ function App() {
 		<div className="App">
 			{SHOW_VIDEO && (
 				<video preload poster={mainCoverImage} autoplay controls>
-					{/*<source src="./pistonVideo.mp4" type="video/mp4" />*/}
+					<source src="./pistonVideo.mp4" type="video/mp4" />
 					<source src="/pistonVideo.webm" type="video/webm" />
 					<p>Your browser does not support the video tag.</p>
 				</video>
